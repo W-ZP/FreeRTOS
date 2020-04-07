@@ -58,7 +58,7 @@ static void AppTaskCreate(void)
     
     taskENTER_CRITICAL();
     
-    
+    //创建任务
     
     vTaskDelete(AppTaskCreate_Handle);
     
